@@ -14,11 +14,6 @@ INPUT_COLS = ["age", "bmi", "children", "smoker_code"]
 
 @app.route("/")
 def home():
-    return render_template("index.html")
-
-
-@app.route("/v2")
-def home_v2():
     return render_template("index_v2.html")
 
 
